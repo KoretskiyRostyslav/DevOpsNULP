@@ -5,7 +5,7 @@ all: install test run deploy
 install:
 	@echo -e "Installing pipenv...."
 	@pip3 install pipenv
-	@pipenv --python 3.7
+	@pipenv --python 3.6
 	@pipenv install requests
 	@pipenv install pytest
 test:
