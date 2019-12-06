@@ -17,4 +17,7 @@
 ![7](./img/7.png)</br>
 ![8](./img/8.png)</br>
 ![9](./img/9.png)</br>
+4. Done</br>
+![10](./img/10.png)</br>
+5. Makefile is better in this situation because of small amount of operations.</br>
 
