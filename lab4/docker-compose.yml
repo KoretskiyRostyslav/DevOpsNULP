@@ -1,0 +1,17 @@
+version: '3.7'
+services:
+  app_server:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: rostik37/lab4-examples:compose-first
+    container_name: app_server
+    ports:
+      - 8000:8000
+  monitoring:
+    build:
+      context: .
+      dockerfile: DockerFileSecond
+    image: rostik37/lab4-examples:compose-second
+    container_name: monitoring
+    network_mode: "host"
