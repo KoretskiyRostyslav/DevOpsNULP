@@ -20,4 +20,6 @@
 4. Done</br>
 ![10](./img/10.png)</br>
 5. Makefile is better in this situation because of small amount of operations.</br>
-
+Link to dockerhub: https://hub.docker.com/repository/docker/rostik37/lab5 </br>
+6. Done, yml file in lab4</br>
+![11](./img/11.png)
